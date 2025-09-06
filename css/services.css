@@ -1,0 +1,50 @@
+.nav-link:hover {
+  color: #ffe600 !important;
+  text-decoration: underline;
+}
+.card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    h2{
+        text-decoration: underline;
+    }
+     h5{
+        text-decoration: underline;
+    }
+       body{
+        background-color: whitesmoke;
+       }
+       .f_family{
+        font-family:serif;
+         text-decoration:underline; 
+        display: flex;
+        justify-content:center;
+      
+       }
+       h1{
+        font-weight: bold;
+        font-family:sans-serif;
+       }
+       .left{
+        display: flex;
+        justify-content: flex-end;
+       }
+       h3{
+        font-family: sans-serif;
+       }
+       .social{
+    font-size: 30px;
+   }
+   .bi-facebook {
+    color: rgb(24, 24, 133);
+    
+   }
+   .bi-instagram{
+    color: red;
+   
+   } 

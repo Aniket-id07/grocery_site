@@ -1,0 +1,50 @@
+.nav-link:hover {
+  color: #ffe600 !important;
+  text-decoration: underline;
+}
+
+    h1{
+        font-weight: 900;
+        text-decoration: underline;
+    }
+    h2{
+        font-size: 60px;
+        font-family: sans-serif;
+        text-decoration: underline;
+       
+    }
+    .box{
+        box-sizing: border-box;
+        border-radius: 20px;
+        width: 60%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color: 10px solid rgb(43, 5, 5);
+        box-shadow: 15px 8px 10px rgb(107, 63, 63);
+
+        
+    }
+    .img1{
+        width: 50%;
+       filter: drop-shadow(15px 8px 10px goldenrod);
+    }
+    .t_decore h2{
+        font-weight: bold;
+        font-size: 50px;
+    }
+     p{
+        font-family: sans-serif;
+     }
+.social{
+    font-size: 30px;
+   }
+   .bi-facebook {
+    color: rgb(24, 24, 133);
+    
+   }
+   .bi-instagram{
+    color: red;
+   
+   } 

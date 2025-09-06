@@ -1,0 +1,22 @@
+.nav-link:hover {
+  color: #ffe600 !important;
+  text-decoration: underline;
+}
+.social{
+    font-size: 30px;
+   }
+   .bi-facebook {
+    color: rgb(24, 24, 133);
+    
+   }
+   .bi-instagram{
+    color: red;
+   
+   } 
+body {
+  background-image: url(/images/farm.jpg);
+  background-size: cover;
+  background-position: center;
+}
+  
+
