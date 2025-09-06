@@ -5,27 +5,27 @@
 
 
 
-.carousel-item{
-            width: 110rem;
-        } 
+ .carousel-item {
+  width: 100%;   /* full width */
+}
+
+
         h1{
             font-weight: 900;   
             font-size:50px;
         }
 
        .carousel-caption {
-      text-align: left;
-      left: 20%;
-      right: auto;
-      bottom: 30%;
-      max-width: 400px;
+      position: absolute;
+      top: 30%;           /* move to middle */
+      max-width: 500px;   /*  text width */
       animation: slideIn 1.5s ease-in;
     }
 
     /* text moving */
     @keyframes slideIn {
       from {
-        transform: translateX(100px);
+        transform: translateX(300px);
         
       }
       to {
