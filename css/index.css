@@ -101,3 +101,53 @@
    
 
    }
+   .carousel-inner{
+    border-radius: 20px;
+   }
+   .d_shadow{
+    filter: drop-shadow(15px 8px 50px goldenrod);
+    
+   }
+   .container{
+    width: 500px;
+    height: 600px;
+     box-sizing: border-box;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+     border-radius: 10px;
+   }
+    .container:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      
+    }
+    .d_shadow:hover{
+      transform: scale(1.2);
+      overflow: hidden;
+
+    }
+
+      @media (max-width: 915px) {
+        
+       .container{
+    width: 500px;
+    height: 800px;
+     box-sizing: border-box;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+     border-radius: 10px;
+   }
+       
+       
+       
+       
+        .d_shadow:hover{
+      transform: none !important;
+      overflow: hidden;
+       }
+
+        
+      }
+       body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* no sideways scroll */
+}
